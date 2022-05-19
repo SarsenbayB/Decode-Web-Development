@@ -11,11 +11,13 @@
 
 **Домашняя работа до четверга**
 - [x] https://www.codewars.com/kata/5dd462a573ee6d0014ce715b/train/javascript
-- [ ] https://www.codewars.com/kata/544675c6f971f7399a000e79
-- [ ] https://www.codewars.com/kata/551b4501ac0447318f0009cd/solutions/javascript
-- [ ] https://www.codewars.com/kata/5601409514fc93442500010b
+- [x] https://www.codewars.com/kata/544675c6f971f7399a000e79
+- [x] https://www.codewars.com/kata/551b4501ac0447318f0009cd/solutions/javascript
+- [x] https://www.codewars.com/kata/5601409514fc93442500010b
 
 **3. Циклы.**
+
+- [Материалы по циклам](https://learn.javascript.ru/while-for)
 
 - Знакомства с понятием циклы
 - Разбор цикла While
@@ -23,3 +25,11 @@
 - Цикл For
 - Цикл Do While
 - Понимание чем отличается While и Do While
+
+**Домашняя работа до следующей недели**
+- [Основная домашка]() <br/>
+- Дополнительная домашка:
+- [x] https://www.codewars.com/kata/55ecd718f46fba02e5000029
+- [] https://www.codewars.com/kata/57eae20f5500ad98e50002c5
+- [] https://www.codewars.com/kata/576bb71bbbcf0951d5000044
+- [] https://www.codewars.com/kata/57a5c31ce298a7e6b7000334 <- optional
