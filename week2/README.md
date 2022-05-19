@@ -26,7 +26,7 @@
 - [Материалы по циклам](https://learn.javascript.ru/while-for)
 
 **Домашняя работа до следующей недели**
-- [Основная домашка]() <br/>
+- [Основная домашка](https://github.com/Assylzhan-Izbassar/Decode-Web-Development/blob/main/week2/lesson2/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%86%D0%B8%D0%BA%D0%BB%D1%8B.pdf) <br/>
 - Дополнительная домашка:
 - [x] https://www.codewars.com/kata/55ecd718f46fba02e5000029
 - [ ] https://www.codewars.com/kata/57eae20f5500ad98e50002c5
