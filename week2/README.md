@@ -29,6 +29,6 @@
 - [Основная домашка]() <br/>
 - Дополнительная домашка:
 - [x] https://www.codewars.com/kata/55ecd718f46fba02e5000029
-- [] https://www.codewars.com/kata/57eae20f5500ad98e50002c5
-- [] https://www.codewars.com/kata/576bb71bbbcf0951d5000044
-- [] https://www.codewars.com/kata/57a5c31ce298a7e6b7000334 <- optional
+- [ ] https://www.codewars.com/kata/57eae20f5500ad98e50002c5
+- [ ] https://www.codewars.com/kata/576bb71bbbcf0951d5000044
+- [ ] https://www.codewars.com/kata/57a5c31ce298a7e6b7000334 <- optional
