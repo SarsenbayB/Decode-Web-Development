@@ -1,0 +1,28 @@
+.container {
+    width: 80%;
+    height: auto;
+    background-color: lightgrey;
+    margin: 0 auto;
+}
+
+.container__inner {
+    margin: 20px;
+}
+.container__header {
+    color: green;
+    text-align: center;
+}
+
+.result {
+    background-color: aliceblue;
+}
+
+.container__table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.container__table tr {
+    border: 1px solid black;
+}
