@@ -1,0 +1,71 @@
+.container__header-item {
+    cursor: pointer;
+}
+
+.container__text {
+    display: inline-block;
+}
+
+.container__text::first-letter {
+    color: black;
+}
+
+/* ToDo */
+
+.toDoContent__header {
+    text-align: center;
+}
+
+.toDoContent__input input {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    box-shadow: 0px 3px black;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.toDoContent__input input:focus {
+    box-shadow: 0px 3px coral;
+}
+
+.toDoContent__input button {
+    position: relative;
+    top: 0px;
+
+    width: 80px;
+    height: 35px;
+    background-color: coral;
+    border: 0px;
+    border-radius: 5px;
+    color: aliceblue;
+
+    box-shadow: 0px 3px chocolate;
+}
+
+.toDoContent__input button:hover {
+    top: 3px;
+    box-shadow: 0px 0px chocolate;
+}
+
+.toDo-list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.toDo-list__item {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+
+    margin-top: 10px;
+    padding: 10px;
+
+    color: white;
+    background-color: lightblue;
+    border-radius: 5px;
+
+    /* text-decoration: line-through; */
+}
