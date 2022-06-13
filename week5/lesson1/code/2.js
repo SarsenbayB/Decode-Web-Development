@@ -35,6 +35,25 @@ function createListItem(text) {
     }
 }
 
+function getElement() {
+    // const ulChildren = document.getElementsByClassName('toDo-list__item');
+
+    // for(let i=0; i < ulChildren.length; ++i) {
+    //     let index = Array.from(ulChildren[i].parentElement.children).indexOf(ulChildren[i]);
+
+    //     ulChildren[i].oncl
+    //     console.log(index);
+    // }
+
+    // 
+    const ul = document.getElementsByClassName('toDo-list');
+
+    ul[0].click(function() {
+        let index = ul[0].index(this);
+        console.log(index);
+    });
+}
+
 function createListItemCheckBox(listItem) {
     let checkBox = document.createElement('input');
     checkBox.setAttribute('type', 'checkbox');
@@ -60,4 +79,6 @@ function checked() {
     } else {
         item.setAttribute('style', 'text-decoration: none;');
     }
+
+    getElement();
 }
