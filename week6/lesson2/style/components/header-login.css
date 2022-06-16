@@ -1,0 +1,66 @@
+.header__sign-in-modal {
+
+    display: none;
+
+    position: absolute;
+    left: 50%;
+    top: 50px;
+
+    margin: 0px -350px;
+
+    width: 700px;
+    background-color: white;
+
+    border: 5px solid #F53855;
+    border-radius: 50px;
+}
+
+.sign-in__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 300px;
+    padding: 40px 80px;
+}
+
+.sign-in__field {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in__field input{
+    height: 40px;
+    border: 1px solid #F53855;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sign-in__enter {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+}
+
+.sign-in__enter button {
+    color: #F53855;
+    border: 1px solid #F53855;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+
+    font-weight: 500;
+    font-size: 16px;
+
+    background-color: white;
+
+    cursor: pointer;
+}
+
+.sign-in__enter button:last-child {
+    background-color: #F53855;
+    color: white;
+}
