@@ -110,7 +110,7 @@ window.onload = function() {
                 field.textContent = calc.total;
             } else if (this.innerHTML == "√") {
                 calc.calculate();
-                calc.setOperator("sqrt");
+                calc.setOperator("√");
                 calc.calculate();
                 field.textContent = calc.total;
             }

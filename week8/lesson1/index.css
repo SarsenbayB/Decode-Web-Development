@@ -1,0 +1,27 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+
+.box__inner {
+    position: relative;
+}
+
+.snake {
+
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+
+    width: 20px;
+    height: 20px;
+
+    background-color: black;
+
+    ani
+    animation-fill-mode: ;
+    animation-timing-function: linear;
+}
