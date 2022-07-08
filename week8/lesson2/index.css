@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* КЛАССЫ */
+
+.container {
+  max-width: 1219px;
+  margin: 0 auto;
+}
+
+.content__inner {
+  text-align: center;
+}
+
+.content__text {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.content__text article {
+    /* background-color: lightgrey; */
+    border: 1.5px solid chocolate;
+    border-radius: 10px;
+    padding: 20px 20px;
+
+    box-shadow: 0px 10px 15px chocolate;
+
+    color: whitesmoke;
+
+    font-weight: 700;
+
+    background: linear-gradient(90deg, orange,coral);
+}
+
+
+/* TEST */
+
+#test {
+    margin-top: 20px;
+    /* transition-delay: 2s; */
+    transition-duration: 1s;
+    transition-property: color, box-shadow;
+    cursor: pointer;
+}
+
+#test:hover {
+    transform: translateY(10px);
+    box-shadow: none;
+}

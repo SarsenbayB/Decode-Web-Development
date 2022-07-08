@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: blueviolet;
+}
+
+.game-board {
+    position: relative;
+
+    background-color: lightgray;
+    width: 100vmin;
+    height: 100vmin;
+
+    /* Grid */
+    display: grid;
+    grid-template-rows: repeat(27, 1fr);
+    grid-template-columns: repeat(27, 1fr);
+}
+
+.snake {
+    background-color: greenyellow;
+    border: 1px solid green;
+}
+
+.apple {
+    background-color: red;
+    border: 1px solid black;
+}
+
+.rating {
+    position: absolute;
+
+    bottom: 10px;
+    right: 50%;
+
+    margin: 0px -250px;
+}
