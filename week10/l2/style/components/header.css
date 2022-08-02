@@ -1,0 +1,35 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 80px;
+    /* margin-bottom: 20px; */
+}
+
+.header__list {
+    min-width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item  a {
+    color: black;
+    font-weight: 600;
+}
+
+.header__item a:hover {
+    color: grey;
+}
+
+.header__login button {
+    background-color: transparent;
+    border: 0px;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header__login button:hover {
+    color: grey;
+}
