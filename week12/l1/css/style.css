@@ -1,0 +1,46 @@
+.row__item {
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+ul, li {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
+a:hover {
+    color: #0B132A;
+}
+
+header {
+    padding-top: 45.62px;
+}
+
+.btn-custom {
+    color: #F53855;
+    width: 150px;
+    border: 1px solid #F53855;
+    border-radius: 50px;
+}
+
+.footer {
+    min-height: 563.12px;
+    background-color: #F8F8F8;
+}
+
+.footer__text {
+    max-width: 340px;
+}
+
+.footer__left {
+    margin-left: 150px;
+}
