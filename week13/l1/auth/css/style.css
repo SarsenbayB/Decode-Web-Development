@@ -1,0 +1,29 @@
+@import url('form.css');
+@import url('profile.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+/* CONTENT */
+
+.content__inner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
