@@ -1,0 +1,31 @@
+@import url('components/form.css');
+@import url('components/profile.css');
+@import url('components/header.css');
+@import url('components/posts.css');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+/* CONTENT */
+.content__inner {
+    height: 100vh;
+}

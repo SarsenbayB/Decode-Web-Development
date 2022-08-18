@@ -1,0 +1,13 @@
+.profile__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__inner {
+    padding: 10px 15px;
+}
+
+.profile__logout {
+    text-decoration: none;
+    color: rgb(242, 59, 59);
+}
