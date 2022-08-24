@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отправка данных и сообщение в почту</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="from__inner" method="post">
+                <h1 class="form__title">
+                    Отправка данных на почту
+                </h1>
+                <div class="form__item">
+                    <label for="name" class="form__label">Имя:</label>
+                    <input id="name" type="text" name="name" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="email" class="form__label">Email:</label>
+                    <input id="email" type="email" name="email" class="form__input">
+                </div>
+                <div class="form__item">
+                    <div class="form__title">Пол:</div>
+                    <div class="options">
+                        <div class="options__item">
+                            <input checked id="male" type="radio" name="gender" class="options__input">
+                            <label for="male" class="options__lable">Мужчина</label>
+                        </div>
+                        <div class="options__item">
+                            <input id="female" type="radio" name="gender" class="options__input">
+                            <label for="female" class="options__lable">Женщина</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="message" class="form__label">Сообщение:</label>
+                    <textarea name="message" id="message" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Возрост:</div>
+                    <select name="age" class="select">
+                        <option value="from18to25">Молодой</option>
+                        <option value="from26to40">Середина</option>
+                        <option value="from40to80">В возросте</option>
+                    </select>
+                </div>
+
+                <div class="form__item">
+                    <div class="form__label">Прекрепить фото:</div>
+                    <div class="file">
+                        <div class="file__item">
+                            <input id="form_img" accept=".jpg, .png, .gif" type="file" name="image" class="file__input">
+                            <button class="file__button">Выбрать</button>
+                        </div>
+                        <div class="file_preview">
+
+                        </div>
+                    </div>
+                </div>
+                <button class="form__button">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
